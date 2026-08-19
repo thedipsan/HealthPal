@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary">#0d2329 </color>
+    <color name="button">#0d2329</color>
+    <color name="main_background">#FFFFFF</color>
+    <color name  ='input_background'>#F9FAFB</color>
+    <color name="input_broder">#F1F3F4</color>
+
 </resources>
