@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:background="@color/white"
-    tools:context=".CreateAccount">
+    tools:context=".SignIn">
 
     <LinearLayout
         android:id="@+id/main"
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Create Account"
+            android:text="SigIn Account"
             android:textColor="#172033"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -58,26 +58,9 @@
             android:textColor="#7A8494"
             android:textSize="15sp" />
 
-        <!-- Name -->
-        <EditText
-            android:id="@+id/etName"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginTop="38dp"
-            android:background="@drawable/edittext_background"
-            android:hint="Your Name"
-            android:inputType="textPersonName"
-            android:imeOptions="actionNext"
-            android:paddingStart="18dp"
-            android:paddingEnd="18dp"
-            android:singleLine="true"
-            android:textColor="@color/primary"
-            android:textColorHint="#A5AFBE"
-            android:textSize="15sp" />
-
         <!-- Email -->
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etSignInEmail"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_marginTop="16dp"
@@ -94,12 +77,12 @@
 
         <!-- Password -->
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etSignInPassword"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edittext_background"
-            android:hint="Create Password"
+            android:hint="Your Password"
             android:inputType="textPassword"
             android:imeOptions="actionDone"
             android:paddingStart="18dp"
@@ -109,31 +92,15 @@
             android:textColorHint="#A5AFBE"
             android:textSize="15sp" />
 
-
-        <EditText
-            android:id="@+id/etConfirmPassword"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/edittext_background"
-            android:hint="Confrim Password"
-            android:inputType="textPassword"
-            android:imeOptions="actionDone"
-            android:paddingStart="18dp"
-            android:paddingEnd="18dp"
-            android:singleLine="true"
-            android:textColor="@color/primary"
-            android:textColorHint="#A5AFBE"
-            android:textSize="15sp" />
 
 
         <!-- Continue Button -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnContinue"
+            android:id="@+id/btnSignIn"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginTop="32dp"
-            android:text="Continue"
+            android:text="SignIn"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="17sp"
@@ -153,17 +120,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already have an account? "
+                android:text="Dont have an account? "
                 android:textColor="#7A8494"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/tvSignIn"
+                android:id="@+id/tvCreateAc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Sign In"
+                android:text="Create Account"
                 android:textColor="@color/primary"
                 android:textSize="14sp"
                 android:textStyle="bold" />
