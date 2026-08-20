@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895859393660",
+    "project_id": "healthpal-app",
+    "storage_bucket": "healthpal-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895859393660:android:c170149613409fc3e935f9",
+        "android_client_info": {
+          "package_name": "com.example.healthpal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzfttT8R0NANQfrku2zkMXNGC-nB91RQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
